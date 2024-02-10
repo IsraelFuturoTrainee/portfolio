@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                    <!--<strong> solicita TEXTO EM NEGRITO <em> ITÁLICO-->
+    <title>Meu Portfólio</title>
+</head>
+<body>
+    <h1>Portfólio Israel Pereira de Carvalho</h1>
+    <h2>Sobre mim</h2>
+      <p>Olá, sou Israel Pereira, um apaixonado por tecnologia e atualmente estou cursando o 5º período de Sistemas de Informação na UNILESTE. Com uma sólida base acadêmica e uma mentalidade ávida por aprendizado, estou constantemente explorando novas áreas e aprimorando minhas habilidades.
+        <br>
+        Estou particularmente entusiaSsmado com o aprendizado contínuo em HTML e CSS. Essas linguagens desempenham um papel crucial no desenvolvimento web, e estou dedicando tempo e esforço para dominá-las completamente.
+      </p>
+    <h2>Redes Sociais</h2>
+    <p>Para mais informações sobre minha experiência e habilidades, convido você a visitar meu perfil:
+        <ul>
+            <li><a href="https://www.linkedin.com/in/israel-pereira-de-carvalho-434b22239/">Linkedin</a></li></p>                   <!--COLOCANDO link -->
+        </ul>
+    <h2>Certificados</h2>    
+    <p><ul>                                                           <!-- TÓPICOS SEM NUMEROS -->
+         <li>Cyber Security (Segurança da Informação)</li>
+         <li>MITRE ATT&CK Defender™ (MAD) ATT&CK® Fundamentals Badge Training</li>
+         <li>ISO 27001 - Segurança da Informação</li>
+         <li>LGPD, conceitos, bases legais de tratamento e mais</li>
+        </ul>
+         </p>
+         <h2>Projetos</h2>       
+         <p>                                                                               <!--TOPICOS COM NUMEROS-->
+            <ol>                                                                                   
+                <li>Projeto ClientCarePro</li>
+                <img src="C:\Users\ut07940\Downloads\CLIENTE.jfif" alt="Descrição da imagem" width="300" height="300"> <!--colocando imagem-->
+                <li>Projeto Interface ClientCarePro</li>
+                <img src="C:\Users\ut07940\Downloads\IMG_9767.jpg" width="300" height="300">
+            </ol>
+         </p>
+         <input type="text" name="nome" placeholder="Seu nome">      <!--UM NOME DO LADO OUTRO PRA PREENCHER-->
+<input type="email" name="email" placeholder="Seu email">
+<input type="password" name="senha" placeholder="Sua senha">
+<input type="number" name="idade" placeholder="Sua idade">
+<br>
+<textarea name="mensagem" rows="4" cols="50" placeholder="Digite sua mensagem aqui"></textarea> <!--CAIXA DE TEXTO-->
+<br>
+         <select name="cidade">                                              <!-- É TIPO AQUELA CAIXA Q TEM UMA SETINHA PRA BAIXO E APARARECE VÁRIAS OPÇÕES-->
+            <option value="rio">Roger</option>
+            <option value="sp">Victor Sapo</option>
+            <option value="bh">Isragrilo</option>
+        </select>
+
+        <form action="processar_formulario.php" method="post">                    <!-- FAZENDO FORMULÁRIO  -->
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br>
+            <input type="radio" name="genero" value="masculino"> Masculino
+
+
+<input type="radio" name="genero" value="feminino"> Feminino                  <!-- MARCAR UMA UNICA OPÇÃO -->
+<input type="radio" name="genero" value="trans"> Trans <br>
+
+
+<input type="checkbox" name="interesses[]" value="esportes"> Esportes             <!-- MARCAR VÁRIAS OPÇÕES -->
+<input type="checkbox" name="interesses[]" value="música"> Música
+<input type="checkbox" name="interesses[]" value="cinema"> Cinema
+<br>
+
+            <form action=" israel trainee.php" method="get">          <!--METÓDO PASSWORD-->
+            <label for="idade">IDADE</label>
+            <input type="password" id="idade" name="idade"><br>
+
+                 
+        
+</body>
+</html>
